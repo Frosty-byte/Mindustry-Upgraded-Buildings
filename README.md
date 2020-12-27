@@ -1,4 +1,4 @@
-# Mindustry-Quality-Of-Life-Mod
+# Mindustry-Upgraded-Buildings
 Adds some advanced buildings to help the grind.
 Cryogenic Mixer; Mixes water and fine titanium powder to produce more cryofluid, but requires more water and power to use.
 Meta Kiln; Smelts sand and lead into metaglass,using pyratite as an additional heat source. More efficient in hot locations.
