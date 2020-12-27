@@ -1,0 +1,19 @@
+type: MassDriver
+name: Surged Mass Driver
+description: A mass driver with two times the storage, range, and power usage.
+size: 3
+health: 480
+range: 880
+itemCapacity: 240
+minDistribute: 100
+consumes: {
+	power: 3.5
+}
+requirements: [
+	surge-alloy/250
+	titanium/250
+	thorium/100
+	silicon/150
+]
+category: distribution
+research: mass-driver

@@ -1,0 +1,12 @@
+type: LiquidExtendingBridge
+name: Titanium Bridge Conduit
+description: Transports liquids farther over terrain or buildings.
+range: 8
+hasPower: false
+requirements: [
+	metaglass/14
+	titanium/8
+	silicon/3
+]
+category: liquid
+research: bridge-conduit

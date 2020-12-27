@@ -1,0 +1,25 @@
+type: Drill
+name: Micro Drill
+description: Small drill for small resource depots. Very expensive.
+	
+size: 1
+health: 40
+tier: 6
+drillTime: 50
+rotateSpeed: 12
+hasLiquids: false
+isBoostable: true
+drawMineItem: false
+requirements: [
+	copper/50
+	silicon/50
+	metaglass/50
+	thorium/50
+	titanium/50
+	plastanium/50
+	phase-fabric/50
+	surge-alloy/50
+]
+	
+category: production
+research: blast-drill

@@ -1,0 +1,20 @@
+type: Cultivator
+name: Mass Cultivator
+description: Cultivates tiny concentrations of atmospheric spores into spore pods at a faster rate. Requires more water and power.
+craftTime: 100
+size: 2
+consumes: {
+	power: 2.7
+	liquid: {
+		liquid: water
+		amount: 0.6
+		}
+}
+outputItem: spore-pod/3
+requirements: [
+	titanium/25
+	thorium/25
+	silicon/20
+]
+category: production
+research: cultivator

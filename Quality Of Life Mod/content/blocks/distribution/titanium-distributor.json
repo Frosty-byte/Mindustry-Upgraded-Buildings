@@ -1,0 +1,11 @@
+type: router
+name: Titanium Distributor
+description: Distributes input items to 11 output directions equally.
+size: 3
+requirements: [
+	copper/8
+	lead/8
+	titanium/8
+]
+category: distribution
+research: distributor

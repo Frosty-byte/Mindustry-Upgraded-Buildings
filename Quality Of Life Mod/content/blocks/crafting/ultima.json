@@ -1,0 +1,47 @@
+type: Separator
+name: Ultima
+description: The ultimate and last frontier for resource pruduction.
+size: 7
+health: 500
+itemCapacity: 20
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 10
+consumes: {
+	power: 8.0
+	items: {
+		items: [
+			copper/2
+			lead/2
+			scrap/2
+			titanium/2
+			thorium/2
+			spore-pod/2
+		]
+	}
+	liquid: {
+		liquid: slag
+		amount: 0.25
+	}
+}
+results: [
+	surge-alloy/1
+	phase-fabric/1
+	plastanium/2
+	blast-compound/1
+	silicon/3
+	pyratite/1
+]
+requirements: [
+	copper/1500
+	silicon/1250
+	metaglass/750
+	thorium/1100
+	titanium/1500
+	phase-fabric/800
+	surge-alloy/900
+]
+
+category: crafting
+research: disassembler

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Quick Pulverizer
+description: Costs more in power and material but makes more sand quicker.
+health: 400
+itemCapacity: 10
+craftTime: 6
+drawer: DrawRotator
+size: 1
+update: true
+solid: true
+craftEffect: pulverize
+updateEffect: pulverizeSmall
+hasItems: true
+hasPower: true
+	consumes: {
+		power: 2.5
+		items: {
+			items: [
+				scrap/1
+			]
+		}
+	}
+	requirements: [
+		copper/75
+		lead/85
+		titanium/105
+	]
+outputItem: sand/3
+category: crafting
+research: pulverizer

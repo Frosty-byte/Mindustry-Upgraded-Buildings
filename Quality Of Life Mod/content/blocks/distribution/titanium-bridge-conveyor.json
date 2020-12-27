@@ -1,0 +1,12 @@
+type: BufferedItemBridge
+name: Titanium Bridge Conveyor
+description: Transports items farther over terrain or buildings.
+range: 8
+speed: 111
+requirements: [
+	lead/8
+	titanium/8
+	silicon/3
+]
+category: distribution
+research: bridge-conveyor
